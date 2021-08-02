@@ -1,0 +1,22 @@
+      //if( attackTime01 == 0 && attackTime02 == 0 ){//まだ振る動作がないとき
+      //  attackTime01 = millis();//あたった1回目の時間を入れる
+      //  println("あたった１回目！" + attackTime01);
+      //}
+      //else if( attackTime01 != 0 && attackTime02 == 0 ){//１回目に何か入ってたとき２回目を入れる
+      //  attackTime02 = millis();//あたった2回目の時間を入れる
+      //  println("あたった2回目！" + attackTime01);
+        
+      //  //1秒ずれ（一番下の桁が）か、全く一緒のときに２つ受け取っていたら振ったとみなす
+      //if( attackTime02 - attackTime01 <= 1.0 ){
+      //  //ブロックをなくす関数を呼び出す
+      //  attackBlocks();
+      //  println( "a" );
+        
+      //}
+      
+      ////1.0以下じゃないけど両方に値が入っていたとき
+      //  //初期値に戻す
+      //  attackTime01 = 0;//あたった1回目の時間を入れる
+      //  attackTime02 = 0;//あたった2回目の時間を入れる
+      
+      //}  

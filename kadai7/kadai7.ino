@@ -28,7 +28,15 @@
 ADXL345 adxl;
 int x, y, z;
 int x_pre = 0;//x座標の前の値を保存する変数
-//int time_pre = 0;//ひとつ前のタイムを取る
+
+//final int sec = 1;//秒数の設定
+//boolean waiting = false;
+
+unsigned long time_pre;//ひとつ前のタイムを取る
+//unsigned long time02 = 0;//ひとつ前のタイムを取る
+
+//unsigned long time[] = 0;
+
 int attack_count = 0;//2秒以内に2回連続で振る「打」動作があったとき、振ったと判定する
 //double g[3];
 
@@ -40,11 +48,10 @@ void setup(){
   y = 0;
   z = 0;
   x_pre=0;
+  time_pre=0;
 }
  
 void loop() {
-
-  //time = millis();
 
   //int sensorValue = analogRead(A0);
   //Serial.println(sensorValue);
@@ -57,17 +64,33 @@ void loop() {
   Serial.print(" ");
   Serial.print(z);
   Serial.println();*/
-
- if( abs( x_pre - x ) > 50 ){//10以上の加速度を検知したらaをわたす（attack｜アタック）absは絶対値を返す
+  
+  //Serial.println(time01);
+  //Serial.println(time02);
+  //Serial.println(time02);
+  
+if( millis() - time_pre > 500 ){//１回おくったら１秒まつ
+ if( abs( x_pre - x ) > 80 ){//10以上の加速度を検知したらaをわたす（attack｜アタック）absは絶対値を返す
      //Serial.write( a  Serial.println(x);//xの値を出力に設定ttack );//xの値を出力に設定
      //attack = 1;
      //attack_count++;
      //Serial.print("打");
      Serial.println('a');
-          
+     
+     time_pre = millis();//前の時間を入れる
+
+     //waiting = true;
+     
      //Serial.println(time);
   }
-
+}
+//  if(waiting && millis()<sec*1000){
+//return;
+//}
+//waiting=false;
+//以下プログラム
+//}
+//}
   x_pre = x;//前の値としていれておく
   //time_pre = time;//前の時間を入れる
 

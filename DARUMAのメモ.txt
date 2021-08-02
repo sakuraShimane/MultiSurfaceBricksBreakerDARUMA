@@ -90,6 +90,7 @@ void draw(){
   text( "Remaining"+ ( 10 - under_ballHit ) +"!!", 0, height/2 + 50 );
   text( "Remaining"+ ( 10 - under_ballHit ) +"!!", 0, height/2 + 50 );
   
+
   
   /* BallとBarの衝突判定 */
   if ( ballX >= barX && ballX <= barX + barWidth ) { //Ballがx軸上でBarの幅にかぶっていて

@@ -38,3 +38,17 @@ void arrangeBlocks(){
     i++;
   }
 }
+
+void deleteBlocks(){
+  
+  int i = 0;
+  while( i < MAX_BLOCKS ){
+    blockWidth[i] = 78.0f;
+    blockHeight[i] = 15.0f;
+    blockHitFlag[i] = true;
+    blockX[i] = BLOCK_GAP + i % BLOCK_ROWS * ( blockWidth[i] + BLOCK_GAP );
+    blockY[i] = BLOCK_GAP + i / BLOCK_ROWS * ( blockHeight[i] + BLOCK_GAP );
+    i++;
+  }
+  drawBlocks();
+}
