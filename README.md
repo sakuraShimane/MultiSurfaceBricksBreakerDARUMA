@@ -6,6 +6,12 @@ Processing × Arduinoで開発したシステム。
 
 # DEMO
 
+はんだゴテで組んだ回路。
+
+![ハンマー](https://user-images.githubusercontent.com/55073758/131723783-2ef3925e-8d0b-4eba-b3a0-637abd15bc91.jpg)
+***
+![配線](https://user-images.githubusercontent.com/55073758/131723790-3941e77f-2f06-4c31-8abd-2f36dc084129.jpg)
+
 成果物の発表資料。
 
 
