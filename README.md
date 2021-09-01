@@ -74,3 +74,10 @@ python demo.py
 社内向けなら社外秘であることを明示してる
 
 "hoge" is Confidential.
+
+# Special Thanks
+
+テンプレートをお借りしました。
+ありがとうございます。
+
+https://cpp-learning.com/readme/
