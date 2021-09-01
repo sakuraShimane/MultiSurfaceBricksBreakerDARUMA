@@ -8,12 +8,12 @@ Processing × Arduinoで開発したシステム。
 
 成果物の発表資料。
 
-![スライド1](https://user-images.githubusercontent.com/55073758/131720709-da3f06ab-0c0b-44f4-bc32-81e6501b1ca1.JPG)  
-![スライド3](https://user-images.githubusercontent.com/55073758/131720717-202c4235-886c-45d9-921f-6f23aa073aeb.JPG)  
-![スライド4](https://user-images.githubusercontent.com/55073758/131720726-8e121680-b161-423b-b0fe-ec0ce1b57364.JPG)  
-![スライド5](https://user-images.githubusercontent.com/55073758/131720728-3073a930-2d91-4696-9486-8f405de1d394.JPG)  
-![スライド6](https://user-images.githubusercontent.com/55073758/131720729-ffbcefad-a99e-44c6-9d66-0859be78c393.JPG)  
-![スライド7](https://user-images.githubusercontent.com/55073758/131720731-2cfe5d44-3dd1-4592-89a4-517f2c7d5cca.JPG)
+>![スライド1](https://user-images.githubusercontent.com/55073758/131720709-da3f06ab-0c0b-44f4-bc32-81e6501b1ca1.JPG)  
+>![スライド3](https://user-images.githubusercontent.com/55073758/131720717-202c4235-886c-45d9-921f-6f23aa073aeb.JPG)  
+>![スライド4](https://user-images.githubusercontent.com/55073758/131720726-8e121680-b161-423b-b0fe-ec0ce1b57364.JPG)  
+>![スライド5](https://user-images.githubusercontent.com/55073758/131720728-3073a930-2d91-4696-9486-8f405de1d394.JPG)  
+>![スライド6](https://user-images.githubusercontent.com/55073758/131720729-ffbcefad-a99e-44c6-9d66-0859be78c393.JPG)  
+>![スライド7](https://user-images.githubusercontent.com/55073758/131720731-2cfe5d44-3dd1-4592-89a4-517f2c7d5cca.JPG)
 
 
 # Features
