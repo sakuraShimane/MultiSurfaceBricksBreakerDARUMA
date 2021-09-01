@@ -50,39 +50,36 @@ MultiSurfaceBricksBreakerでは、落ちたボールを活かしたブロック�
 # Installation
 
 * Processing　
+* https://processing.org/
 * Arduino NANO
-
-
-```bash
-pip install huga_package
-```
+* https://www.arduino.cc/en/software
 
 # Usage
 
->［１］USBポートとArduino NANOを繋ぐ
->［２］Arduinoを立ち上げ、実行ボタンでプログラムを送信する
->［３］Processingを立ち上げる
->［４］実行するー＞MultiSurfaceBricksBreakerのゲーム画面が立ちあがり、ゲームがスタートする
->［５］キーボードの左右キーでバーを移動し、ボールを打ち返す
->［６］ハンマーを振ってプレッシャーブロックを消す
+遊び方はこんな感じ  
+  
+>［１］USBポートとArduino NANOを繋ぐ  
+>［２］Arduinoを立ち上げ、実行ボタンでプログラムを送信する  
+>［３］Processingを立ち上げる  
+>［４］実行するー＞MultiSurfaceBricksBreakerのゲーム画面が立ちあがり、ゲームがスタートする  
+>［５］キーボードの左右キーでバーを移動し、ボールを打ち返す  
+>［６］ハンマーを振ってプレッシャーブロックを消す  
 
-##クリア条件は…  
+## クリア条件は…  
 ブロックをにボールを当ててすべて壊す 
 or  
 プレッシャーブロックが積みあがり、ゲームオーバー１つ手前でハンマーを振る
 
-##負け条件は…
+## 負け条件は…
 ブロックをすべて崩す前にボールを落としまくり、  
 画面下にプレッシャーブロックがすべて出現すると  
-GAME OVER！
+GAME OVER！！！！
 
 # Note
 
-注意点などがあれば書く
+Arduinoを繋いだときの、COM番号を確認する  
 
 # Author
-
-作成情報を列挙する
 
 * SakuraShimane
 
