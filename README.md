@@ -6,12 +6,6 @@ Processing × Arduinoで開発したシステム。
 
 # DEMO
 
-はんだゴテで組んだ回路。
-
-![ハンマー](https://user-images.githubusercontent.com/55073758/131723783-2ef3925e-8d0b-4eba-b3a0-637abd15bc91.jpg)
-***
-![配線](https://user-images.githubusercontent.com/55073758/131723790-3941e77f-2f06-4c31-8abd-2f36dc084129.jpg)
-
 成果物の発表資料。
 
 
@@ -27,6 +21,12 @@ Processing × Arduinoで開発したシステム。
 ***
 ![スライド7](https://user-images.githubusercontent.com/55073758/131720731-2cfe5d44-3dd1-4592-89a4-517f2c7d5cca.JPG)
 
+
+はんだゴテで組んだ回路。
+
+![ハンマー](https://user-images.githubusercontent.com/55073758/131723783-2ef3925e-8d0b-4eba-b3a0-637abd15bc91.jpg)
+***
+![配線](https://user-images.githubusercontent.com/55073758/131723790-3941e77f-2f06-4c31-8abd-2f36dc084129.jpg)
 
 # Features
 
@@ -59,13 +59,22 @@ pip install huga_package
 
 # Usage
 
-DEMOの実行方法など、"hoge"の基本的な使い方を説明する
+>［１］USBポートとArduino NANOを繋ぐ
+>［２］Arduinoを立ち上げ、実行ボタンでプログラムを送信する
+>［３］Processingを立ち上げる
+>［４］実行するー＞MultiSurfaceBricksBreakerのゲーム画面が立ちあがり、ゲームがスタートする
+>［５］キーボードの左右キーでバーを移動し、ボールを打ち返す
+>［６］ハンマーを振ってプレッシャーブロックを消す
 
-```bash
-git clone https://github.com/hoge/~
-cd examples
-python demo.py
-```
+##クリア条件は…  
+ブロックをにボールを当ててすべて壊す 
+or  
+プレッシャーブロックが積みあがり、ゲームオーバー１つ手前でハンマーを振る
+
+##負け条件は…
+ブロックをすべて崩す前にボールを落としまくり、  
+画面下にプレッシャーブロックがすべて出現すると  
+GAME OVER！
 
 # Note
 
@@ -75,18 +84,11 @@ python demo.py
 
 作成情報を列挙する
 
-* 作成者
-* 所属
-* E-mail
+* SakuraShimane
 
 # License
-ライセンスを明示する
 
-"hoge" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
-
-社内向けなら社外秘であることを明示してる
-
-"hoge" is Confidential.
+"MultiSurfaceBricksBreakerDARUMA" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
 
 # Special Thanks
 
