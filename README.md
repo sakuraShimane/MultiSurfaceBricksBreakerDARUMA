@@ -1,7 +1,7 @@
 # MultiSurfaceBricksBreakerDARUMA
 
-JAIST1-2期の知識メディア方法論の授業課題の最終成果物。
-MultiSurfaceBricksBreakerにArduinoを使ってセンサ入力を実装したグレードアップ版。
+JAIST1-2期の知識メディア方法論の授業課題の最終成果物。  
+MultiSurfaceBricksBreakerにArduinoを使ってセンサ入力を実装したグレードアップ版。  
 Processing × Arduinoで開発したシステム。
 
 # DEMO
